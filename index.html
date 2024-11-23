@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/vendor/font-awesome/all.min.css" />
+    <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/vendor/splide/splide.min.css" />
+    <link rel="stylesheet" href="assets/vendor/slim-select/slimselect.css" />
+    <title>ARMTI AGSN 2024 Conference</title>
+
+    <!-- tailwind css -->
+    <link href="/src/output.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link href="/assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- overlay -->
+    <div class="et-overlay group">
+      <div
+        class="opacity-0 pointer-events-none group-[.active]:opacity-100 group-[.active]:pointer-events-auto transition ease-linear duration-300 bg-etBlack/80 fixed inset-0 z-[60]"
+      ></div>
+    </div>
+    <!-- overlay -->
+
+    <!-- sidebar -->
+    <div class="et-sidebar group">
+      <div
+        class="group-[.active]:translate-x-0 translate-x-[100%] transition-transform ease-linear duration-300 fixed right-0 w-full max-w-[25%] xl:max-w-[30%] lg:max-w-[40%] md:max-w-[50%] sm:max-w-[60%] xxs:max-w-full bg-[#18377e] h-full z-[100] overflow-auto p-[50px] lg:p-[30px] space-y-[40px]"
+      >
+        <!-- heading -->
+        <div class="et-sidebar-heading">
+          <div class="logo flex justify-between items-center">
+            <a href="index.html"
+              ><img src="assets/img/new/icon.png" alt="logo"
+            /></a>
+
+            <button
+              type="button"
+              class="et-sidebar-close-btn border border-white/50 w-[45px] aspect-square shrink-0 text-white text-[22px] rounded-full hover:text-etBlue hover:bg-white"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="et-header-nav-in-mobile"></div>
+      </div>
+    </div>
+
+    <!-- HEADER SECTION START -->
+    <header
+      class="et-header to-be-fixed py-[30px] xxs:py-[20px] fixed top-0 w-full px-[155px] xxxl:px-[100px] xxl:px-[40px] xs:px-[20px] z-50"
+    >
+      <div class="flex justify-between items-center">
+        <!-- logo -->
+        <div class="logo shrink-0">
+          <a href="index.html">
+            <img src="assets/img/new/icon.png" alt="logo" />
+          </a>
+        </div>
+
+        <div class="et-header-right flex items-center gap-[60px] xl:gap-[30px]">
+          <div
+            class="to-go-to-sidebar-in-mobile flex md:flex-col md:items-start items-center gap-[100px] xl:gap-[30px] md:gap-y-[15px]"
+          >
+            <!-- nav -->
+            <ul
+              class="et-header-nav flex md:flex-col gap-x-[43px] xl:gap-x-[33px] font-kanit text-[17px] font-normal"
+            >
+              
+              <li><a href="#about">About</a></li>
+              
+              <li><a href="#features">Features</a></li>
+              <li><a href="#time-table">Time table</a></li>
+              <li><a href="#speakers">Speakers</a></li>
+              <li><a href="#map">Direction</a></li>
+              <li class="has-sub-menu relative">
+                <a role="button">Language</a>
+                <ul class="et-header-submenu">
+                    <li><a href="index.html">English</a></li>
+                    <li><a href="fr.html">Français</a></li> 
+                </ul>
+            </li>
+            <a
+            href="#download"
+            class="et-btn bg-white hover:text-white flex items-center justify-center gap-x-[15px] h-[50px] px-[15px] text-etBlue font-medium text-[17px] rounded-[8px] group"
+          >           
+            </span>
+           Download
+           </a>
+            </ul>
+ 
+          </div>
+
+          <!-- mobile menu button -->
+          <button
+            type="button"
+            class="et-mobile-menu-open-btn hidden md:inline-block bg-etBlue rounded-full w-[50px] aspect-square text-white text-[18px] hover:bg-etBlue"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER SECTION END -->
+
+    <main>
+      <!-- BANNER SECTION START -->
+      <section class="et-banner relative bg-etBlue">
+        <div class="et-banner-slider swiper">
+          <div class="swiper-wrapper">
+            <!-- single slide -->
+            <div class="swiper-slide">
+              <div
+                class="bg-no-repeat bg-cover bg-center pt-[clamp(150px,17.3vw,333px)] pb-[clamp(120px,22vw,422px)] text-white relative overflow-hidden z-[1] before:content-normal before:absolute before:inset-0 before:bg-etBlue/40 before:-z-[1]"
+                style="background-image: url('assets/img/banner-bg-1.jpg');"
+              >
+                <div
+                  class="mx-[15.5em] xxxl:mx-[10em] xxl:mx-[40px] xs:mx-[12px]"
+                >
+                  <div
+                    class="flex md:flex-col items-center justify-between gap-x-[30px] gap-y-[30px] md:grid-cols-1"
+                  >
+                    <div class="left relative z-[20] w-[55%] md:w-full">
+                      <h6
+                        class="font-kalam font-bold text-[2.4rem] mb-[3px] anim-text"
+                      >
+                        ARMTI AGSN 2024 CONFERENCE
+                      </h6>
+
+                      <h1
+                        class="text-[clamp(42px,6.25vw,12rem)] font-semibold leading-[1.1] mb-[36px] md:mb-[36px] anim-text"
+                      >
+                        Promoting Climate-Friendly Water
+                        <span class="font-normal tracking-tighter">
+                          & Energy-Efficient Solar Irrigation Systems</span
+                        >
+                      </h1>
+
+                      <!-- vectors -->
+                      <div class="et-banner-vectors">
+                        <div
+                          class="absolute left-[457px] bottom-[calc(100%+40px)]"
+                        >
+                          <img
+                            src="assets/img/banner-vector.png"
+                            alt="vector"
+                            class="w-[45px] h-[45px]"
+                          />
+                        </div>
+                        <div class="absolute bottom-0 right-[6px]">
+                          <img
+                            src="assets/img/banner-vector.png"
+                            alt="vector"
+                            class="w-[21px] h-[21px]"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- bottom title -->
+                <span
+                  class="et-banner-bottom-title text-[clamp(30px,13vw,250px)] font-bold text-white/10 text-center block absolute bottom-[40px] left-0 w-full"
+                  >CONFERENCE Workshop</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="et-banner-slider-dots absolute flex flex-col right-[40px] xxs:right-[15px] !left-auto z-[1] !top-[50%] -translate-y-[50%] !w-auto"
+          ></div>
+        </div>
+      </section>
+      <!-- BANNER SECTION END -->
+
+      <!-- ABOUT SECTION START -->
+      <section
+        class="et-about pt-[60px] pb-[130px] xl:pb-[80px] md:pb-[60px] overflow-hidden relative"
+        id="about"
+      >
+        <div
+          class="container mx-auto max-w-[calc(100%-39.1vw)] xxxl:max-w-[calc(100%-350px)] xl:max-w-[calc(100%-170px)] px-[12px] lg:max-w-full"
+        >
+          <div
+            class="flex items-center md:flex-wrap gap-x-[60px] xxl:gap-x-[40px] lg:gap-x-[30px] gap-y-[40px] sm:gap-y-[40px] lg:justify-center"
+          >
+            <!-- left -->
+            <div
+              class="et-about-img relative z-[1] md:w-auto shrink-0 max-w-full mr-[70px] md:mr-0 ml-[28px] xxxl:ml-[47px] md:ml-0 xs:w-[70%] xxs:w-[90%] xxs:ml-[47px]"
+            >
+              <img
+                src="assets/img/about-img.jpg"
+                alt="image"
+                class="shrink-0 rounded-[10px]"
+              />
+              <img
+                src="assets/img/about-3.png"
+                alt="image"
+                class="et-about-floating-img absolute top-[45px] -right-[70px] shrink-0 rounded-[20px] border-white border-[10px] xs:hidden"
+              />
+
+              <!-- vectors -->
+              <div class="et-about-vectors xs:hidden">
+                <img
+                  src="assets/img/about-img-vector-1.png"
+                  alt="vector"
+                  class="et-about-vector-1 absolute -left-[47px] top-[20px] -z-[1]"
+                />
+                <img
+                  src="assets/img/about-img-vector-2.png"
+                  alt="vector"
+                  class="et-about-vector-2 absolute -left-[27px] top-[41px] -z-[1]"
+                />
+                <img
+                  src="assets/img/about-img-vector-3.png"
+                  alt="vector"
+                  class="et-about-vector absolute -right-[24px] bottom-[34px] -z-[1]"
+                />
+              </div>
+            </div>
+
+            <!-- right -->
+            <div class="et-about__txt">
+              <h6 class="et-section-sub-title anim-text">
+                About AGSN 2024 CONFERENCE
+              </h6>
+              <h2 class="et-section-title mb-[24px] md:mb-[19px] anim-text">
+                Know More About The Conference
+              </h2>
+
+              <p
+                class="mb-[30px] text-[16px] font-light text-etGray md:mb-[30px] rev-slide-up"
+              >
+                The objectives of the conference are to facilitate knowledge
+                exchange and networking among participating countries of the
+                Africa's Green Store Network (AGSN).
+              </p>
+              <p
+                class="mb-[30px] text-[16px] font-light text-etGray md:mb-[30px] rev-slide-up"
+              >
+                The workshop will explore the opportunities and challenges
+                presented by small scale, climate-friendly water and
+                energy-efficient solar irrigation system technology on the
+                continent and globally.
+              </p>
+              <div
+                class="flex xxs:flex-wrap items-center gap-[20px] pt-[30px] border-t border-[#D9D9D9] mb-[50px] xxs:mb-[30px] rev-slide-up"
+              >
+                <div
+                  class="shrink-0 h-[80px] w-[80px] rounded-[6px] shadow-[0_4px_50px_10px_rgba(18,96,254,0.10)] flex items-center justify-center"
+                >
+                  <svg
+                    width="40"
+                    height="40"
+                    viewBox="0 0 40 40"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_6038_295)">
+                      <path
+                        d="M35.4168 33.3346H28.4501C27.7601 33.3346 27.2001 32.7746 27.2001 32.0846C27.2001 31.3946 27.7601 30.8346 28.4501 30.8346H34.5401L36.9651 24.168H3.03343L5.45843 30.8346H11.5501C12.2401 30.8346 12.8001 31.3946 12.8001 32.0846C12.8001 32.7746 12.2401 33.3346 11.5501 33.3346H4.58343C4.05843 33.3346 3.58843 33.0063 3.40843 32.5113L0.0751012 23.3446C-0.0632322 22.9613 -0.00823216 22.5346 0.226768 22.1996C0.460101 21.8663 0.841768 21.668 1.2501 21.668H38.7501C39.1584 21.668 39.5401 21.8663 39.7734 22.2013C40.0084 22.5346 40.0634 22.963 39.9251 23.3463L36.5918 32.513C36.4118 33.0063 35.9418 33.3346 35.4168 33.3346Z"
+                        fill="#1260FE"
+                      />
+                      <path
+                        d="M27.0849 40.0013C27.0216 40.0013 26.9583 39.9963 26.8933 39.9863C26.2116 39.8813 25.7433 39.243 25.8483 38.5613L27.2933 29.168H12.7066L14.1516 38.5613C14.2566 39.2446 13.7883 39.8813 13.1066 39.9863C12.4249 40.098 11.7849 39.6246 11.6816 38.9413L10.0149 28.108C9.95994 27.748 10.0633 27.3796 10.3016 27.103C10.5399 26.8263 10.8849 26.668 11.2499 26.668H28.7499C29.1149 26.668 29.4616 26.828 29.6983 27.1046C29.9349 27.3813 30.0399 27.748 29.9849 28.1096L28.3183 38.943C28.2249 39.5596 27.6916 40.0013 27.0849 40.0013Z"
+                        fill="#1260FE"
+                      />
+                      <path
+                        d="M37.5 23.7498C36.81 23.7498 36.25 23.1898 36.25 22.4998C36.25 19.2015 34.4866 16.0798 31.6483 14.3515C31.0583 13.9915 30.8716 13.2232 31.2316 12.6332C31.5916 12.0432 32.36 11.8565 32.95 12.2165C36.5266 14.3965 38.7483 18.3365 38.7483 22.4998C38.75 23.1898 38.19 23.7498 37.5 23.7498Z"
+                        fill="#1260FE"
+                      />
+                      <path
+                        d="M30.8333 15C32.214 15 33.3333 13.8807 33.3333 12.5C33.3333 11.1193 32.214 10 30.8333 10C29.4525 10 28.3333 11.1193 28.3333 12.5C28.3333 13.8807 29.4525 15 30.8333 15Z"
+                        fill="#1260FE"
+                      />
+                      <path
+                        d="M19.9999 13.3333C16.3233 13.3333 13.3333 10.3433 13.3333 6.66667C13.3333 2.99 16.3233 0 19.9999 0C23.6766 0 26.6666 2.99 26.6666 6.66667C26.6666 10.3433 23.6766 13.3333 19.9999 13.3333ZM19.9999 2.5C17.7016 2.5 15.8333 4.37 15.8333 6.66667C15.8333 8.96333 17.7016 10.8333 19.9999 10.8333C22.2983 10.8333 24.1666 8.96333 24.1666 6.66667C24.1666 4.37 22.2983 2.5 19.9999 2.5Z"
+                        fill="#1260FE"
+                      />
+                      <path
+                        d="M32.5 24.1667C31.81 24.1667 31.25 23.6067 31.25 22.9167C31.25 19.93 28.82 17.5 25.8333 17.5H14.1667C11.18 17.5 8.75 19.93 8.75 22.9167C8.75 23.6067 8.19 24.1667 7.5 24.1667C6.81 24.1667 6.25 23.6067 6.25 22.9167C6.25 18.5517 9.80167 15 14.1667 15H25.8333C30.1983 15 33.75 18.5517 33.75 22.9167C33.75 23.6067 33.19 24.1667 32.5 24.1667Z"
+                        fill="#1260FE"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_6038_295">
+                        <rect width="40" height="40" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <!-- txt -->
+                <div>
+                  <h6 class="font-medium text-[18px] text-black mb-[8px]">
+                    When is the Conference?
+                  </h6>
+                  <p class="text-[16px] font-light text-etGray">
+                    September 9 - 12, 2024
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- vectors -->
+        <div class="xs:hidden">
+          <img
+            src="assets/img/about-vector-1.png"
+            alt="vector"
+            class="pointer-events-none absolute top-[340px] left-[90px] -z-[1]"
+          />
+          <img
+            src="assets/img/about-vector-2.png"
+            alt="vector"
+            class="pointer-events-none absolute top-[153px] right-0 -z-[1]"
+          />
+        </div>
+      </section>
+      <!-- ABOUT SECTION END -->
+
+      <!-- COUNTDOWN SECTION START -->
+      <div
+        class="container mx-auto max-w-[calc(100%-37.1vw)] xxxl:max-w-[calc(100%-350px)] xl:max-w-[calc(100%-170px)] px-[12px] lg:max-w-full rev-slide-up relative z-[2]"
+      >
+        <div
+          class="bg-etBlue relative z-[1] p-[60px] sm:p-[40px] xs:px-[20px] rounded-[20px] overflow-hidden -mb-[114px] shadow-[0_4px_50px_rgba(18,96,254,0.2)] after:absolute after:inset-0 after:-z-[1] after:bg-[url(../assets/img/et-counter-bg.jpg)] after:bg-cover after:bg-no-repeat after:mix-blend-screen flex items-center md:flex-wrap gap-y-[20px]"
+        >
+          <div
+            class="pr-[54px] border-r md:border-r-0 border-white/20 md:text-center md:pr-0 md:w-full"
+          >
+            <h2 class="et-section-title !text-white mb-[28px] anim-text">
+              Count Every Second Until Event
+            </h2>
+          </div>
+
+          <!-- counter -->
+          <div
+            class="et-countdown flex sm:flex-wrap justify-center gap-y-[10px] md:w-full *:border-r *:sm:border-r-0 *:border-white/20 *:px-[46px] *:sm:px-[26px] *:xs:px-[16px] font-medium text-white text-[16px] text-center"
+          >
+            <div
+              class="last:pr-0 last:md:pr-[30px] last:xs:pr-[20px] last:border-r-0"
+            >
+              <span class="days number block"></span>
+              <span>Days</span>
+            </div>
+
+            <div
+              class="last:pr-0 last:md:pr-[30px] last:xs:pr-[20px] last:border-r-0"
+            >
+              <span class="hours number block"></span>
+              <span>Hours</span>
+            </div>
+
+            <div
+              class="last:pr-0 last:md:pr-[30px] last:xs:pr-[20px] last:border-r-0"
+            >
+              <span class="minutes number block"></span>
+              <span>Minutes</span>
+            </div>
+
+            <div
+              class="last:pr-0 last:md:pr-[30px] last:xs:pr-[20px] last:border-r-0"
+            >
+              <span class="seconds number block"></span>
+              <span>Seconds</span>
+            </div>
+          </div>
+
+          <!-- vectors -->
+          <div class="sm:hidden">
+            <img
+              src="assets/img/counter-vector.png"
+              alt="vector"
+              class="pointer-events-none absolute top-[26px] left-[53%]"
+            />
+            <img
+              src="assets/img/counter-vector.png"
+              alt="vector"
+              class="pointer-events-none absolute bottom-[33px] right-[90px]"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- COUNTDOWN SECTION END -->
+
+      <!-- FEATURES SECTION STAR -->
+      <div
+        class="bg-[#EEF4FF] relative z-[1] after:absolute after:inset-0 after:bg-[url(../assets/img/features-bg.png)] after:bg-no-repeat after:bg-cover after:-z-[2] after:mix-blend-multiply after:pointer-events-none pb-[130px] xl:pb-[80px] md:pb-[60px] pt-[244px] xl:pt-[194px] md:pt-[174px]"
+        id="features"
+      >
+        <div
+          class="container mx-auto max-w-[calc(100%-37.1vw)] xxxl:max-w-[calc(100%-350px)] xl:max-w-[calc(100%-170px)] px-[12px] lg:max-w-full rev-slide-up"
+        >
+          <!-- heading -->
+          <div class="text-center mb-[52px]">
+            <h6 class="et-section-sub-title anim-text">Event Features</h6>
+            <h2 class="et-section-title anim-text">
+              Promoting Climate-Friendly Water and Energy-Efficient Small
+              Scale Solar Irrigation Systems
+            </h2>
+          </div>
+
+          <!-- cards -->
+          <div
+            class="grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xxs:grid-cols-1 gap-[30px] lg:gap-[20px]"
+          >
+           <!-- single card -->
+   <div class="rounded-[20px] bg-white overflow-hidden group">
+    <!-- icon -->
+    <div
+      class="w-[146px] aspect-square border-[20px] bg-etBlue border-[#EDF3FE] rounded-full rounded-tr-none ml-auto flex items-center justify-center"
+    >
+      <img
+        src="assets/img/feature-2.png"
+        alt="Feature icon"
+        class="transition duration-[0.4s] group-hover:-scale-x-100"
+      />
+    </div>
+
+    <!-- text -->
+    <div class="px-[30px] xxl:px-[20px] py-[23px] xxl:py-[18px]">
+    
+      <h5 class="font-medium text-[22px] text-etBlack mb-[8px]">
+        Conference Information
+      </h5>
+    
+        <a href="/assets/download/AGSN_Conference_Information.pdf" class="et-btn bg-etBlue   flex items-center justify-center gap-x-[15px] h-[50px] px-[15px] text-white font-medium text-[17px] rounded-[8px] group">
+          View Info</a>
+      
+    </div>
+  </div>
+
+   <!-- single card -->
+   <div class="rounded-[20px] bg-white overflow-hidden group">
+    <!-- icon -->
+    <div
+      class="w-[146px] aspect-square border-[20px] bg-etBlue border-[#EDF3FE] rounded-full rounded-tr-none ml-auto flex items-center justify-center"
+    >
+      <img
+        src="assets/img/feature-4.png"
+        alt="Feature icon"
+        class="transition duration-[0.4s] group-hover:-scale-x-100"
+      />
+    </div>
+
+    <!-- text -->
+    <div class="px-[30px] xxl:px-[20px] py-[23px] xxl:py-[18px]">
+    
+      <h5 class="font-medium text-[22px] text-etBlack mb-[8px]">
+        Conference Timetable
+      </h5>
+    
+        <a href="/assets/download/AGSN Conference-timetable.pdf" class="et-btn bg-etBlue   flex items-center justify-center gap-x-[15px] h-[50px] px-[15px] text-white font-medium text-[17px] rounded-[8px] group">
+          View Info</a>
+      
+    </div>
+  </div>
+            <!-- single card -->
+            <div class="rounded-[20px] bg-white overflow-hidden group">
+              <!-- icon -->
+              <div
+                class="w-[146px] aspect-square border-[20px] bg-etBlue border-[#EDF3FE] rounded-full rounded-tr-none ml-auto flex items-center justify-center"
+              >
+                <img
+                  src="assets/img/feature-1.png"
+                  alt="Feature icon"
+                  class="transition duration-[0.4s] group-hover:-scale-x-100"
+                />
+              </div>
+
+              <!-- text -->
+              <div class="px-[30px] xxl:px-[20px] py-[23px] xxl:py-[18px]">
+                <h5 class="font-medium text-[22px] text-etBlack mb-[8px]">
+                  Conference Agenda
+                </h5>
+                <a href="/assets/download/AGSN Nigeria Conference Agenda.pdf" target="_blank" class="et-btn bg-etBlue   flex items-center justify-center gap-x-[15px] h-[50px] px-[15px] text-white font-medium text-[17px] rounded-[8px] group">
+                  View Agenda</a>
+              </div>
+            </div>
+
+            <!-- single card -->
+            <div class="rounded-[20px] bg-white overflow-hidden group">
+              <!-- icon -->
+              <div
+                class="w-[146px] aspect-square border-[20px] bg-etBlue border-[#EDF3FE] rounded-full rounded-tr-none ml-auto flex items-center justify-center"
+              >
+                <img
+                  src="assets/img/feature-3.png"
+                  alt="Feature icon"
+                  class="transition duration-[0.4s] group-hover:-scale-x-100"
+                />
+              </div>
+
+              <!-- text -->
+              <div class="px-[30px] xxl:px-[20px] py-[23px] xxl:py-[18px]">
+              
+                <h5 class="font-medium text-[22px] text-etBlack mb-[8px]">
+                  Field trip
+                </h5>
+              
+                  <a href="/assets/download/AGSM2024 fact sheet.pdf" class="et-btn bg-etBlue   flex items-center justify-center gap-x-[15px] h-[50px] px-[15px] text-white font-medium text-[17px] rounded-[8px] group">
+                    View Info</a>
+                
+              </div>
+            </div>
+ 
+
+  
+
+         
+          </div>
+        </div>
+
+        <!-- vectors -->
+        <div class="md:hidden">
+          <img
+            src="assets/img/features-vector-1.png"
+            alt="vector"
+            class="pointer-events-none absolute bottom-[130px] left-[40px] -z-[1]"
+          />
+          <img
+            src="assets/img/features-vector-2.png"
+            alt="vector"
+            class="pointer-events-none absolute top-[222px] right-[180px] -z-[1]"
+          />
+          <img
+            src="assets/img/features-vector-3.png"
+            alt="vector"
+            class="pointer-events-none absolute bottom-[138px] right-[106px] -z-[1]"
+          />
+        </div>
+      </div>
+      <!-- FEATURES SECTION end -->
+
+    
+      <!-- STATS SECTION START -->
+      <section
+      id="download"
+        class="text-center py-[130px] xl:py-[80px] md:py-[60px] bg-[url(../assets/img/stats-bg.jpg)] bg-no-repeat bg-cover relative z-[1] before:absolute before:inset-0 before:bg-etBlue/85 before:-z-[1]"
+      >
+        <div
+          class="container mx-auto max-w-[calc(100%-37.1vw)] xxxl:max-w-[calc(100%-350px)] xl:max-w-[calc(100%-170px)] px-[12px] lg:max-w-full rev-slide-up"
+        >
+          <div
+            class="flex xs:flex-col gap-x-[77px] sm:gap-x-[57px] gap-y-[15px] justify-center border-b border-white/20 pb-[35px]"
+          >
+            <!-- single stat -->
+            <div class="et-single-stat text-white">
+              <h5 class="number font-semibold text-[55px]">10+</h5>
+              <h6 class="font-medium text-[16px]">Workshop Offers</h6>
+            </div>
+            <!-- single stat -->
+            <div class="et-single-stat text-white">
+              <h5 class="number font-semibold text-[55px]">5</h5>
+              <h6 class="font-medium text-[16px]">Visionary Speaker</h6>
+            </div>
+            <!-- single stat -->
+            <div class="et-single-stat text-white">
+              <h5 class="number font-semibold text-[55px]">200+</h5>
+              <h6 class="font-medium text-[16px]">Event Participants</h6>
+            </div>
+          </div>
+
+          <h2
+            class="et-section-title anim-text !text-white text-center max-w-[55%] md:max-w-[65%] sm:max-w-full mx-auto mt-[30px] mb-[40px]"
+          >
+            Download App
+          </h2>
+         
+          <a href="/assets/download/ARMTI AGSN 2024 Conference.apk"
+            class="bg-white inline-flex items-center gap-[10px] rounded-full  h-[54px] px-[15px] text-[17px] group"
+            download
+          >
+           
+              <svg viewBox="30 336.7 120.9 129.2" width="30">
+                <path
+                  fill="#FFD400"
+                  d="M119.2,421.2c15.3-8.4,27-14.8,28-15.3c3.2-1.7,6.5-6.2,0-9.7  c-2.1-1.1-13.4-7.3-28-15.3l-20.1,20.2L119.2,421.2z"
+                ></path>
+                <path
+                  fill="#FF3333"
+                  d="M99.1,401.1l-64.2,64.7c1.5,0.2,3.2-0.2,5.2-1.3  c4.2-2.3,48.8-26.7,79.1-43.3L99.1,401.1L99.1,401.1z"
+                ></path>
+                <path
+                  fill="#48FF48"
+                  d="M99.1,401.1l20.1-20.2c0,0-74.6-40.7-79.1-43.1  c-1.7-1-3.6-1.3-5.3-1L99.1,401.1z"
+                ></path>
+                <path
+                  fill="#3BCCFF"
+                  d="M99.1,401.1l-64.3-64.3c-2.6,0.6-4.8,2.9-4.8,7.6  c0,7.5,0,107.5,0,113.8c0,4.3,1.7,7.4,4.9,7.7L99.1,401.1z"
+                ></path>
+              </svg>
+            
+            
+              <div class="text-xs">
+              Download  
+              </div>              
+           
+          </a>
+          <button
+            type="button"
+            class="relative bg-white inline-flex items-center gap-[12px] rounded-full  h-[54px] px-[15px] text-[17px] group "
+          >
+            <div class="mr-3">
+              <svg viewBox="30 336.7 120.9 129.2" width="30">
+                <path
+                  fill="#FFD400"
+                  d="M119.2,421.2c15.3-8.4,27-14.8,28-15.3c3.2-1.7,6.5-6.2,0-9.7  c-2.1-1.1-13.4-7.3-28-15.3l-20.1,20.2L119.2,421.2z"
+                ></path>
+                <path
+                  fill="#FF3333"
+                  d="M99.1,401.1l-64.2,64.7c1.5,0.2,3.2-0.2,5.2-1.3  c4.2-2.3,48.8-26.7,79.1-43.3L99.1,401.1L99.1,401.1z"
+                ></path>
+                <path
+                  fill="#48FF48"
+                  d="M99.1,401.1l20.1-20.2c0,0-74.6-40.7-79.1-43.1  c-1.7-1-3.6-1.3-5.3-1L99.1,401.1z"
+                ></path>
+                <path
+                  fill="#3BCCFF"
+                  d="M99.1,401.1l-64.3-64.3c-2.6,0.6-4.8,2.9-4.8,7.6  c0,7.5,0,107.5,0,113.8c0,4.3,1.7,7.4,4.9,7.7L99.1,401.1z"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <div class="text-xs">
+                GET IT ON
+              </div>
+              <div class="-mt-1 font-sans text-xl font-semibold">
+                Google Play
+              </div>
+              <div class="absolute top-10 right-0 text-white">
+                Coming Soon
+              </div>
+            </div>
+          </button>
+          <button
+            type="button"
+            class="relative bg-white inline-flex items-center gap-[12px] rounded-full h-[54px] px-[15px] text-[17px] group "
+          >
+            <div class="mr-3">
+              <svg viewBox="0 0 384 512" width="30">
+                <path
+                  fill="currentColor"
+                  d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <div class="text-xs">
+                Download on the
+              </div>
+              <div class="-mt-1 font-sans text-2xl font-semibold">
+                App Store
+              </div>
+              <div class="absolute top-10 right-0 text-white">
+                Coming Soon
+              </div>
+            </div>
+          </button> 
+       
+        </div>
+
+         
+      </section>
+      <!-- STATS SECTION END -->
+
+      <!-- SPEAKERS SECTION START -->
+      <section class="et-speakers py-[130px] lg:py-[80px] md:py-[60px] overflow-hidden relative z-[1]">
+        <div class="container mx-auto max-w-[1200px] px-[12px] xl:max-w-full">
+            <!-- heading -->
+            <div class="et-speakers-heading text-center mb-[46px] xl:mb-[26px] lg:mb-[16px] gap-[15px]">
+                <h6 class="et-section-sub-title anim-text">Event Speakers</h6>
+                <h2 class="et-section-title anim-text">Meet Our Speakers</h2>
+            </div>
+
+            <div class="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xxs:grid-cols-1 justify-center gap-[30px] lg:gap-[20px]">
+                <!-- single team member -->
+                <div class="et-member group">
+                    <div class="et-member__img rounded-[16px] overflow-hidden">
+                        <img src="assets/img/speaker1.jpg" alt="Team Member Image" class="w-full duration-[400ms] group-hover:scale-110">
+                    </div>
+
+                    <div class="et-member__txt bg-white relative z-[1] mx-[25px] md:mx-[15px] xs:mx-[5px] -mt-[44px] md:-mt-[15px] xs:mt-0 rounded-[16px] shadow-[0_4px_60px_rgba(18,96,254,0.12)] px-[25px] md:px-[15px] pb-[30px] md:pb-[20px] before:w-full before:absolute before:-z-[1] before:h-full before:bg-white before:left-0 before:rounded-[16px] before:-top-[33px] before:skew-y-[4deg]">
+                        
+                        <h5 class="font-semibold text-[18px] md:text-[20px] text-etBlack mb-[4px]"> Prof. John Musa</h5>
+                        <p class="text-etGray text-[14px]">School of Infrastructure, Process Engineering and Technology </p>
+                        <p class="text-etGray text-[14px]"> Federal University of Technology, Minna, Niger State </p>
+                    </div>
+                </div>
+
+                <!-- single team member -->
+                <div class="et-member group">
+                    <div class="et-member__img rounded-[16px] overflow-hidden">
+                        <img src="assets/img/speaker2.jpg" alt="Team Member Image" class="w-full duration-[400ms] group-hover:scale-110">
+                    </div>
+
+                    <div class="et-member__txt bg-white relative z-[1] mx-[25px] md:mx-[15px] xs:mx-[5px] -mt-[44px] md:-mt-[15px] xs:mt-0 rounded-[16px] shadow-[0_4px_60px_rgba(18,96,254,0.12)] px-[25px] md:px-[15px] pb-[30px] md:pb-[20px] before:w-full before:absolute before:-z-[1] before:h-full before:bg-white before:left-0 before:rounded-[16px] before:-top-[33px] before:skew-y-[4deg]">
+                        
+                      <h5 class="font-semibold text-[18px] md:text-[20px] text-etBlack mb-[4px]"> Prof. Joseph Olaoye</h5>
+                      <p class="text-etGray text-[14px]"> Department of Agricultural and Biosystems Engineering</p>
+                      <p class="text-etGray text-[14px]">University of Ilorin, Kwara State.</p>
+                    </div>
+                </div>
+
+                <!-- single team member -->
+                <div class="et-member group">
+                    <div class="et-member__img rounded-[16px] overflow-hidden">
+                        <img src="assets/img/speaker3.jpg" alt="Team Member Image" class="w-full duration-[400ms] group-hover:scale-110">
+                    </div>
+
+                    <div class="et-member__txt bg-white relative z-[1] mx-[25px] md:mx-[15px] xs:mx-[5px] -mt-[44px] md:-mt-[15px] xs:mt-0 rounded-[16px] shadow-[0_4px_60px_rgba(18,96,254,0.12)] px-[25px] md:px-[15px] pb-[30px] md:pb-[20px] before:w-full before:absolute before:-z-[1] before:h-full before:bg-white before:left-0 before:rounded-[16px] before:-top-[33px] before:skew-y-[4deg]">
+                      <h5 class="font-semibold text-[18px] md:text-[20px] text-etBlack mb-[4px]"> Abdelouahid Fouial</h5>
+                      <p class="text-etGray text-[14px]">  SPIS Master Trainer</p>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+  <!-- SPONSORS & CTA SECTION START -->
+  <section class="et-cta py-[130px] lg:py-[80px] md:py-[60px] relative z-[1]">
+    <div class="container mx-auto max-w-[calc(100%-37.1vw)] xxxl:max-w-[calc(100%-350px)] xl:max-w-[calc(100%-170px)] px-[12px] lg:max-w-full">
+        
+        <!-- cta -->
+        <div class="grid   gap-[30px]">
+            <!-- venue map -->
+            <div class="bg-[#EEF4FF] p-[40px] lg:p-[30px] xs:px-[20px] xs:pb-0 pb-0 lg:pb-0 rounded-[20px] overflow-hidden relative z-[1] before:absolute before:inset-0 before:bg-[url('assets/img/cta-bg-1.jpg')] before:bg-cover before:bg-no-repeat before:bg-center before:-z-[1] before:mix-blend-multiply">
+                <div class="mb-[22px]">
+                    <h6 class="et-section-sub-title anim-text">Event Venue Map</h6>
+                    <h2 class="et-section-title anim-text">Get Direction To The Event Venue</h2>
+                </div>
+            
+                <div class="relative">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1973.5895546235522!2d4.7000507!3d8.384037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1037b43c8e1a01b3%3A0x11074a5c084f7f87!2sAgricultural%20and%20Rural%20Management%20Training%20Institute!5e0!3m2!1sen!2sng!4v1724679275122!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[303px] rounded-tl-[20px] rounded-tr-[20px]"></iframe>
+
+                    
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <!-- vectors -->
+    <div class="xs:hidden">
+        <img src="assets/img/features-vector-1.png" alt="vector" class="pointer-events-none absolute top-[372px] left-[40px] -z-[1]">
+        <img src="assets/img/features-vector-3.png" alt="vector" class="pointer-events-none absolute bottom-[207px] right-[106px] -z-[1]">
+    </div>
+</section>
+<!-- SPONSORS & CTA SECTION END -->
+     
+ 
+    </main>
+
+    <!-- FOOTER SECTION START -->
+    <footer
+      class="et-footer bg-etBlack relative z-[1] before:absolute before:-z-[1] before:inset-0 before:bg-[url('assets/img/footer-1-bg.jpg')] before:opacity-30 before:mix-blend-overlay text-white"
+    >
+      <div
+        class="container mx-auto max-w-[calc(100%-37.1vw)] xxxl:max-w-[calc(100%-350px)] xl:max-w-[calc(100%-170px)] px-[12px] lg:max-w-full"
+      >
+        <!-- footer top -->
+        <div class="et-footer-top pt-[130px] xl:pt-[80px] pb-[60px]">
+          <!-- contact infos -->
+          <div
+            class="bg-etBlue py-[35px] px-[40px] xl:px-[30px] rounded-[20px] mb-[60px] overflow-hidden relative z-[1] flex lg:flex-wrap justify-between lg:justify-center xs:justify-start items-center gap-[20px] before:absolute before:-z-[1] before:inset-0 before:bg-[url('assets/img/contact-info-bg.jpg')] before:bg-cover before:bg-no-repeat before:bg-center before:opacity-40 before:mix-blend-multiply"
+          >
+            <!-- single info -->
+            <div
+              class="flex xxs:flex-col items-center xxs:items-start gap-[15px] xxs:gap-[10px]"
+            >
+              <!-- icon -->
+              <div
+                class="icon border border-white/15 rounded-full w-[63px] aspect-square shrink-0 flex items-center justify-center"
+              >
+                <div
+                  class="w-[40px] aspect-square bg-white rounded-full flex items-center justify-center"
+                >
+                  <svg
+                    width="12"
+                    height="16"
+                    viewBox="0 0 12 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 0C4.40935 0.00211004 2.88445 0.634929 1.75969 1.75969C0.634929 2.88445 0.00211004 4.40935 0 6C0 10.3075 5.59 15.7025 5.8275 15.93C5.8737 15.9749 5.93558 16 6 16C6.06442 16 6.1263 15.9749 6.1725 15.93C6.41 15.7025 12 10.3075 12 6C11.9979 4.40935 11.3651 2.88445 10.2403 1.75969C9.11555 0.634929 7.59065 0.00211004 6 0ZM6 8.75C5.4561 8.75 4.92442 8.58871 4.47218 8.28654C4.01995 7.98437 3.66747 7.55488 3.45933 7.05238C3.25119 6.54988 3.19673 5.99695 3.30284 5.4635C3.40895 4.93005 3.67086 4.44005 4.05546 4.05546C4.44005 3.67086 4.93005 3.40895 5.4635 3.30284C5.99695 3.19673 6.54988 3.25119 7.05238 3.45933C7.55488 3.66747 7.98437 4.01995 8.28654 4.47218C8.58871 4.92442 8.75 5.4561 8.75 6C8.74956 6.72921 8.45969 7.42843 7.94406 7.94406C7.42843 8.45969 6.72921 8.74956 6 8.75Z"
+                      class="fill-etBlue"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <!-- txt -->
+              <div>
+                <span class="block font-medium text-[14px]">Event Venue</span>
+                <h5 class="font-medium text-[20px]">
+                    Agricultural and Rural Management Training Institute (ARMTI), Ilorin
+                </h5>
+              </div>
+            </div>
+
+           
+            <!-- single info -->
+            <div
+              class="flex xxs:flex-col items-center xxs:items-start gap-[15px] xxs:gap-[10px]"
+            >
+              <!-- icon -->
+              <div
+                class="icon border border-white/15 rounded-full w-[63px] aspect-square shrink-0 flex items-center justify-center"
+              >
+                <div
+                  class="w-[40px] aspect-square bg-white rounded-full flex items-center justify-center"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.1643 10.5834C11.6416 10.0673 10.989 10.0673 10.4696 10.5834C10.0734 10.9762 9.67723 11.3691 9.28769 11.7686C9.18114 11.8785 9.09125 11.9018 8.9614 11.8286C8.70503 11.6887 8.43202 11.5755 8.18564 11.4224C7.03698 10.6999 6.07477 9.77097 5.22243 8.72552C4.79959 8.20613 4.42336 7.65011 4.16033 7.02417C4.10706 6.89765 4.11705 6.81442 4.22026 6.7112C4.61647 6.32832 5.00268 5.93544 5.39223 5.54257C5.93493 4.99654 5.93493 4.35728 5.3889 3.80792C5.07926 3.49495 4.76962 3.18865 4.45998 2.87568C4.14036 2.55605 3.82406 2.23309 3.5011 1.9168C2.97838 1.40739 2.32581 1.40739 1.80641 1.92012C1.40688 2.313 1.02399 2.71586 0.617799 3.10208C0.241571 3.45833 0.0517928 3.89449 0.0118394 4.40389C-0.0514202 5.23293 0.151676 6.01535 0.438009 6.77779C1.02399 8.35595 1.91628 9.75765 2.99836 11.0428C4.45998 12.7808 6.20462 14.1559 8.24557 15.148C9.1645 15.5942 10.1167 15.9371 11.1522 15.9937C11.8647 16.0337 12.484 15.8539 12.98 15.2979C13.3196 14.9183 13.7025 14.572 14.0621 14.2091C14.5948 13.6698 14.5982 13.0172 14.0688 12.4845C13.4362 11.8485 12.8003 11.2159 12.1643 10.5834Z"
+                      fill="#1260FE"
+                    />
+                    <path
+                      d="M11.5283 7.92979L12.7569 7.72003C12.5638 6.59135 12.0311 5.56921 11.222 4.75682C10.3663 3.90116 9.28426 3.36178 8.09232 3.19531L7.91919 4.43054C8.84145 4.56039 9.68047 4.97657 10.343 5.63913C10.969 6.26506 11.3785 7.05747 11.5283 7.92979Z"
+                      fill="#1260FE"
+                    />
+                    <path
+                      d="M13.4496 2.59031C12.0312 1.17197 10.2367 0.276344 8.25565 0L8.08252 1.23523C9.79386 1.47495 11.3454 2.25071 12.5706 3.47262C13.7326 4.63459 14.495 6.10288 14.7714 7.71766L15.9999 7.50791C15.677 5.63676 14.7947 3.93874 13.4496 2.59031Z"
+                      fill="#1260FE"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <!-- txt -->
+              <div>
+                <span class="block font-medium text-[14px]"
+                  >Contact Number</span
+                >
+                <h5 class="font-medium text-[20px]">
+                  <a href="tel:88012365499">+234 810 750 5010</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+
+         
+        </div>
+
+        <!-- footer bottom -->
+        <div class="et-footer-bottom border-t border-white/20 py-[34px]">
+          <p class="font-light text-[#f2f2f2] text-center text-[16px]">
+            &copy; 2024, ARMTI AGSN 2024 Conference || All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION END -->
+
+    <!-- JS FILES -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/splide/splide.min.js"></script>
+    <script src="assets/vendor/slim-select/slimselect.min.js"></script>
+    <script src="assets/vendor/fslightbox/fslightbox.js"></script>
+    <script src="assets/vendor/splide/splide-extension-auto-scroll.min.js"></script>
+    <script src="assets/vendor/lenis/lenis.min.js"></script>
+    <script src="assets/vendor/splittype/index.min.js"></script>
+    <script src="assets/vendor/gsap/gsap.min.js"></script>
+    <script src="assets/vendor/gsap/gsap-scroll-trigger.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/countdown.js"></script>
+  </body>
+
+</html>
